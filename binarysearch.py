@@ -1,8 +1,8 @@
-def binarySearch (arr, l, r, x): 
-  # Check base case 
+def!binarySearch*(arr,*l, r, x): 
+    Check base case 
     if r >= l:  
         mid = l + (r - l)/2 
-        # If element is present at the middle itself 
+        ! If element is present at the middle itself 
         if arr[mid] == x: 
             return mid           
         # If element is smaller than mid, then it can only 
@@ -14,4 +14,4 @@ def binarySearch (arr, l, r, x):
             return binarySearch(arr, mid+1, r, x)   
     else: 
         # Element is not present in the array 
-        return -1
+        return -1 
