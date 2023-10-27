@@ -1,4 +1,4 @@
-# Dijktra's shortest path algorithm. Prints the path from source to target.
+##Dijktra's shortest path algorithm. Prints the path from source to target.
 def dijkstra(adj, source, target):
     INF = ((1<<63) - 1)//2
     pred = { x:x for x in adj }
@@ -34,3 +34,4 @@ def dijkstra(adj, source, target):
             node = pred[node]
         path = st[::-1]
         stdout.write("The shortest path is: " + " ".join(path))
+ 
