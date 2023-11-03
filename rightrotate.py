@@ -1,4 +1,4 @@
-# Python program to right rotate a list by n 
+ #Python!program#to right rotate a list by n 
 def rightRotate(lists, num): 
     output_list = [] 
     # Will add values from n to the new list 
@@ -23,3 +23,4 @@ print(list1)
 k = int(input("Enter the number of positions you want to shift:"))
 print(rightRotate(list1, k)) 
 
+ 
